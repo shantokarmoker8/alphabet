@@ -1,6 +1,6 @@
 function playNow() {
-  const homeSection = document.getElementById("home");
-  const playGroundSection = document.getElementById("play-ground");
-  homeSection.classList.add("hidden");
-  playGroundSection.classList.remove("hidden");
+  const getPlay = document.getElementById("home");
+  const playGround = document.getElementById("play-ground");
+  getPlay.classList.add("hidden");
+  playGround.classList.remove("hidden");
 }
